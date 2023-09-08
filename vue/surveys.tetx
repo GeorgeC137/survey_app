@@ -1,0 +1,175 @@
+const tmpSurveys = [
+    {
+        id: 69,
+        title: 'The Codeholic channel content is great',
+        slug: 'codeholic-youtube-channel',
+        status: 'draft',
+        image: 'https://picsum.photos/200',
+        description: "Zura is really a great tutor and i'm lerning alot from him",
+        created_at: '2023-9-09 15:00:00',
+        updated_at: '2023-9-09 15:00:00',
+        expire_date: '2023-11-09 15:00:00',
+        questions: [
+            {
+                id: 1,
+                type: 'select',
+                question: 'Which county are from?',
+                description: null,
+                data: {
+                    options: [
+                        {
+                            uuid: '456c-56Y4-Kec5-7p98',
+                            text: 'Nakuru',
+                        },
+                        {
+                            uuid: '9Y6c-56e4-Kec5-7p5A',
+                            text: 'Nairobi',
+                        },
+                        {
+                            uuid: 'Bf6c-80fY-Kec5-7p9f',
+                            text: 'Kisumu',
+                        },
+                    ]
+                },
+            },
+            {
+                id: 2,
+                type: 'checkbox',
+                question: 'Which languages are you interested in?',
+                description: "Those languages are really interesting. We'll work on each one soon",
+                data: {
+                    options: [
+                        {
+                            uuid: '4p6c-3PyJ-K6Gb-Lpy6',
+                            text: 'Laravel Framework',
+                        },
+                        {
+                            uuid: '9Y6c-5h7r-K9yc-J0pA',
+                            text: 'Vue',
+                        },
+                        {
+                            uuid: 'Bk7c-8kYp-7p9f',
+                            text: 'PHP',
+                        },
+                    ]
+                },
+            },
+            {
+                id: 3,
+                type: 'checkbox',
+                question: 'Which languages are you interested in?',
+                description: "Those languages are really interesting. We'll work on each one soon",
+                data: {
+                    options: [
+                        {
+                            uuid: '4p6c-3PyJ-K6Gb-Lpy6',
+                            text: 'Java',
+                        },
+                        {
+                            uuid: 'K5al-5h7r-K9yc-J0pA',
+                            text: 'Python',
+                        },
+                        {
+                            uuid: 'W5r5-p5r7-h0K3',
+                            text: 'C#',
+                        },
+                    ]
+                },
+            },
+            {
+                id: 4,
+                type: 'radio',
+                question: 'Which framework are you interested in?',
+                description: "Those languages are really interesting. We'll work on each one soon",
+                data: {
+                    options: [
+                        {
+                            uuid: '456c-56Y4-Kec5-7p98',
+                            text: 'Laravel',
+                        },
+                        {
+                            uuid: '9Y6c-56e4-Kec5-7p5A',
+                            text: 'Django',
+                        },
+                        {
+                            uuid: 'hj7c-9gH8-K7f5-A4ep',
+                            text: 'Next.js',
+                        },
+                    ]
+                },
+            },
+            {
+                id: 5,
+                type: 'checkbox',
+                question: 'Which languages should we start with?',
+                description: "Those languages are really interesting. We'll work on each one soon",
+                data: {
+                    options: [
+                        {
+                            uuid: 'B1p2-P9s5-K6Gb-Lpy6',
+                            text: 'Java',
+                        },
+                        {
+                            uuid: 'K5al-Q6r7-K9yc-J0pA',
+                            text: 'Python',
+                        },
+                        {
+                            uuid: 'A9u4-p5r7-h0K3',
+                            text: 'C#',
+                        },
+                    ]
+                },
+            },
+            {
+                id: 6,
+                type: 'text',
+                question: "Who's your favorite coder",
+                description: null,
+                data: {},
+            },
+            {
+                id: 7,
+                type: 'textarea',
+                question: "What's your thought on codeholic?",
+                description: "Be honest it's anonymous",
+                data: {},
+            }
+        ],
+    },
+    {
+        id: 34,
+        title: "Laravel 10",
+        slug: "laravel-10",
+        status: "active",
+        image: "https://picsum.photos/200",
+        description: "Laravel is a PHP framework for web development",
+        created_at: '2023-10-09 10:00:00',
+        updated_at: '2023-10-09 10:00:00',
+        expire_date: '2023-12-09 10:00:00',
+        questions: [],
+    },
+    {
+        id: 45,
+        title: "Vue 3",
+        slug: "vue-3",
+        status: "active",
+        image: "https://picsum.photos/200",
+        description: "Vue is a JavaScript framework for web development",
+        created_at: '2023-9-09 10:00:00',
+        updated_at: '2023-9-09 10:00:00',
+        expire_date: '2023-11-09 10:00:00',
+        questions: [],
+    },
+    {
+        id: 18,
+        title: "Tailwind 4",
+        slug: "tailwind-4",
+        status: "active",
+        image: "https://picsum.photos/200",
+        description: "Tailwind is a CSS framework for web development",
+        created_at: '2023-10-20 18:00:00',
+        updated_at: '2023-10-20 18:00:00',
+        expire_date: '2023-12-20 18:00:00',
+        questions: [],
+    }
+];
